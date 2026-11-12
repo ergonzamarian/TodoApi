@@ -1,0 +1,20 @@
+@host = http://localhost:5080
+
+### Listar
+GET {{host}}/api/tarefas
+
+### Filtrar por status
+GET {{host}}/api/tarefas?status=Em%20andamento
+
+### Filtrar por data
+GET {{host}}/api/tarefas?dataVencimento=2026-11-20
+
+### Criar
+POST {{host}}/api/tarefas
+Content-Type: application/json
+
+{
+  "titulo": "Preparar entrega",
+  "descricao": "Revisar endpoints e documentação",
+  "dataVencimento": "2026-11-20"
+}

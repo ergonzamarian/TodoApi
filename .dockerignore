@@ -1,0 +1,8 @@
+**/.git
+**/.vs
+**/bin
+**/obj
+**/*.db
+**/*.user
+**/TestResults
+**/GUIA-DE-ESTUDO.md

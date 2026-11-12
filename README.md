@@ -5,7 +5,7 @@ API REST em .NET 10 para gestão de tarefas (ToDo).
 Permite criar, listar, atualizar e remover tarefas, com filtro por status e data de vencimento. Usa Entity Framework Core com SQLite, Repository, Unit of Work, injeção de dependência e Swagger.
 
 - Código: https://github.com/ergonzamarian/TodoApi
-- Imagem Docker: https://hub.docker.com/r/ergonzamarian/todoapi
+- Imagem Docker: https://hub.docker.com/r/ergonlima/todoapi
 
 ## Pré-requisitos
 
@@ -85,8 +85,8 @@ dotnet test
 Com a imagem publicada:
 
 ```bash
-docker pull ergonzamarian/todoapi:latest
-docker run --rm -p 8080:8080 ergonzamarian/todoapi:latest
+docker pull ergonlima/todoapi:latest
+docker run --rm -p 8080:8080 ergonlima/todoapi:latest
 ```
 
 Ou construindo localmente:
